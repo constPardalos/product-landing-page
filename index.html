@@ -1,204 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+    <meta charset="UTF-8"/>
     <meta charset="UTF-8" />
-    <title>FCC: Product Landing Page</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <header id="header">
-      <a
-        id="logo-container"
-        href="https://www.guerrilla-games.com"
-        target="_blank"
-        ><img
-          id="header-img"
-          src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Logo-Guerrilla-Games.png"
-          alt="Guerrilla Games Logo"
-        />
-      </a>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <title>Horizon Forbidden West</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header id="header">
+    <a href="https://www.guerrilla-games.com" id="logo-container" target="_blank"
+    ><img alt="Guerrilla Games Logo" id="header-img" src="assets/logo.png"/>
+    </a>
 
-      <div id="nav-container">
+    <div id="nav-container">
         <nav id="nav-bar">
-          <ul>
-            <li><a href="#overview" class="nav-link">Game Overview</a></li>
-            <li><a href="#trailer" class="nav-link">Trailer</a></li>
-            <li><a href="#features" class="nav-link">Key Features</a></li>
-          </ul>
+            <ul>
+                <li><a class="nav-link" href="#overview">Game Overview</a></li>
+                <li><a class="nav-link" href="#trailer">Trailer</a></li>
+                <li><a class="nav-link" href="#features">Key Features</a></li>
+            </ul>
         </nav>
 
-        <a
-          id="nav-btn"
-          href="https://www.playstation.com/en-us/games/horizon-forbidden-west/"
-          target="_blank"
-          >Store</a
-        >
-      </div>
-    </header>
+        <a href="https://www.playstation.com/en-us/games/horizon-forbidden-west/" id="nav-btn" target="_blank">Store</a>
+    </div>
+</header>
 
-    <main>
-      <section id="intro">
+<main>
+    <section id="intro">
         <div id="intro-overlay"></div>
         <div id="intro-container">
-          <h1>Horizon<br />Forbidden West</h1>
-          <p>
-            Join Aloy as she braves the Forbidden West – a majestic but
-            dangerous frontier that conceals mysterious new threats.
-          </p>
-          <a
-            href="https://www.playstation.com/en-us/games/horizon-forbidden-west/"
-            target="_blank"
-            >Pre-Order</a
-          >
+            <h1>Horizon<br/>Forbidden West</h1>
+            <p>
+                Join Aloy as she braves the Forbidden West – a majestic but
+                dangerous frontier that conceals mysterious new threats.
+            </p>
+            <a href="https://www.playstation.com/en-us/games/horizon-forbidden-west/" target="_blank"
+            >Pre-Order</a>
         </div>
-      </section>
+    </section>
 
-      <section id="overview" class="section">
+    <section class="section" id="overview">
         <h2 class="section-title">Game Overview</h2>
         <p>
-          Explore distant lands, fight bigger and more awe-inspiring machines,
-          and encounter astonishing new tribes as you return to the far-future,
-          post-apocalyptic world of Horizon.
+            Explore distant lands, fight bigger and more awe-inspiring machines,
+            and encounter astonishing new tribes as you return to the far-future,
+            post-apocalyptic world of Horizon.
         </p>
         <p>
-          The land is dying. Vicious storms and an unstoppable blight ravage the
-          scattered remnants of humanity, while fearsome new machines prowl
-          their borders. Life on Earth is hurtling towards another extinction,
-          and no one knows why.
+            The land is dying. Vicious storms and an unstoppable blight ravage the
+            scattered remnants of humanity, while fearsome new machines prowl
+            their borders. Life on Earth is hurtling towards another extinction,
+            and no one knows why.
         </p>
         <p>
-          It's up to Aloy to uncover the secrets behind these threats and
-          restore order and balance to the world. Along the way, she must
-          reunite with old friends, forge alliances with warring new factions
-          and unravel the legacy of the ancient past – all the while trying to
-          stay one step ahead of a seemingly undefeatable new enemy.
+            It's up to Aloy to uncover the secrets behind these threats and
+            restore order and balance to the world. Along the way, she must
+            reunite with old friends, forge alliances with warring new factions
+            and unravel the legacy of the ancient past – all the while trying to
+            stay one step ahead of a seemingly undefeatable new enemy.
         </p>
-      </section>
+    </section>
 
-      <section id="trailer" class="section">
+    <section class="section" id="trailer">
         <div id="trailer-overlay"></div>
         <div class="video-container">
-          <iframe
-            id="video"
-            width="1280"
-            height="720"
-            src="https://www.youtube-nocookie.com/embed/Lq594XmpPBg?controls=0"
-            title="Horizon Forbidden West Announcement Trailer"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
+            <iframe
+                    allowfullscreen
+                    frameborder="0"
+                    height="720"
+                    id="video"
+                    src="https://www.youtube-nocookie.com/embed/Lq594XmpPBg?controls=0"
+                    title="Horizon Forbidden West Announcement Trailer"
+                    width="1280"
+            ></iframe>
         </div>
-      </section>
+    </section>
 
-      <section id="features" class="section">
+    <section class="section" id="features">
         <h2 class="section-title">Key Features</h2>
 
         <div class="features-container">
-          <div id="f-box1" class="f-box">
-            <div id="fbox-overlay"></div>
-            <h3>Brave an expansive open world</h3>
-            <p>
-              Discover distant lands, new enemies, rich cultures and striking
-              characters.
-            </p>
-          </div>
+            <div class="f-box" id="f-box1">
+                <div class="fbox-overlay"></div>
+                <h3>Brave an expansive open world</h3>
+                <p>
+                    Discover distant lands, new enemies, rich cultures and striking
+                    characters.
+                </p>
+            </div>
 
-          <div id="f-box2" class="f-box">
-            <div id="fbox-overlay"></div>
-            <h3>A majestic frontier</h3>
-            <p>
-              Explore the lush forests, sunken cities and towering mountains of
-              a far-future America.
-            </p>
-          </div>
+            <div class="f-box" id="f-box2">
+                <div class="fbox-overlay"></div>
+                <h3>A majestic frontier</h3>
+                <p>
+                    Explore the lush forests, sunken cities and towering mountains of
+                    a far-future America.
+                </p>
+            </div>
 
-          <div id="f-box3" class="f-box">
-            <div id="fbox-overlay"></div>
-            <h3>Confront new dangers</h3>
-            <p>
-              Engage in strategic battles against enormous machines and mounted
-              human enemies by using weapons, gear and traps crafted from
-              salvaged parts.
-            </p>
-          </div>
+            <div class="f-box" id="f-box3">
+                <div class="fbox-overlay"></div>
+                <h3>Confront new dangers</h3>
+                <p>
+                    Engage in strategic battles against enormous machines and mounted
+                    human enemies by using weapons, gear and traps crafted from
+                    salvaged parts.
+                </p>
+            </div>
 
-          <div id="f-box4" class="f-box">
-            <div id="fbox-overlay"></div>
-            <h3>Unravel startling mysteries</h3>
-            <p>
-              Uncover the secret behind Earth's imminent collapse and unlock a
-              hidden chapter in the ancient past... one that will change Aloy
-              forever.
-            </p>
-          </div>
+            <div class="f-box" id="f-box4">
+                <div class="fbox-overlay"></div>
+                <h3>Unravel startling mysteries</h3>
+                <p>
+                    Uncover the secret behind Earth's imminent collapse and unlock a
+                    hidden chapter in the ancient past... one that will change Aloy
+                    forever.
+                </p>
+            </div>
         </div>
-      </section>
+    </section>
 
-      <section id="newsletter" class="section">
+    <section class="section" id="newsletter">
         <h2 class="section-title">Stay Tuned</h2>
 
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <label for="email"
-            >If you want to receive news about Horizon Forbidden West and be
-            notified about the release date, just enter your email below.</label
-          >
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Enter your email"
-            required
-          />
-          <input type="submit" id="submit" value="Submit" />
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <label for="email">
+                If you want to receive news about Horizon Forbidden West and be
+                notified about the release date, just enter your email below.
+            </label>
+            <input
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                    type="email"
+            />
+            <input id="submit" type="submit" value="Submit"/>
         </form>
-      </section>
-    </main>
+    </section>
+</main>
 
-    <footer id="footer" class="section">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Logo-Guerrilla-Games.png"
-        alt="Guerrilla Games Logo"
-      />
+<footer class="section" id="footer">
+    <img alt="Guerrilla Games Logo" src="assets/logo.png"/>
 
-      <ul>
+    <ul>
+        <li><a href="https://www.sie.com/" target="_blank"
+            >Sony Interactive Entertainment</a></li>
+        <li><a href="https://www.playstation.com/" target="_blank"
+            >PlayStation.com</a></li>
+        <li><a href="https://www.guerrilla-games.com" target="_blank"
+            >Guerrilla Games</a></li>
         <li>
-          <a href="https://www.sie.com/" target="_blank"
-            >Sony Interactive Entertainment</a
-          >
+            <a class="author" href="https://github.com/theColorDude" target="_blank">
+                <svg viewBox="0 0 32.58 31.77" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                          d="M16.29,0a16.29,16.29,0,0,0-5.15,31.75c.82.15,1.11-.36,1.11-.79s0-1.41,0-2.77C7.7,29.18,6.74,26,6.74,26a4.36,4.36,0,0,0-1.81-2.39c-1.47-1,.12-1,.12-1a3.43,3.43,0,0,1,2.49,1.68,3.48,3.48,0,0,0,4.74,1.36,3.46,3.46,0,0,1,1-2.18c-3.62-.41-7.42-1.81-7.42-8a6.3,6.3,0,0,1,1.67-4.37,5.94,5.94,0,0,1,.16-4.31s1.37-.44,4.48,1.67a15.41,15.41,0,0,1,8.16,0c3.11-2.11,4.47-1.67,4.47-1.67A5.91,5.91,0,0,1,25,11.07a6.3,6.3,0,0,1,1.67,4.37c0,6.26-3.81,7.63-7.44,8a3.85,3.85,0,0,1,1.11,3c0,2.18,0,3.94,0,4.47s.29.94,1.12.78A16.29,16.29,0,0,0,16.29,0Z"/>
+                </svg>
+                <span>theColorDude</span>
+            </a>
         </li>
-        <li>
-          <a href="https://www.playstation.com/" target="_blank"
-            >PlayStation.com</a
-          >
-        </li>
-        <li>
-          <a href="https://www.guerrilla-games.com" target="_blank"
-            >Guerrilla Games</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page"
-            target="_blank"
-            >freeCodeCamp</a
-          >
-        </li>
-      </ul>
+    </ul>
 
-      <p>
+    <p>
         All assets of this page are trademarks or registered trademarks of Sony
-        Interactive Entertainment Europe. This page is a small project made
-        entirely for the purpose of practicing my skills.
-      </p>
-    </footer>
-  </body>
+        Interactive Entertainment Europe.
+        This is a small personal project made entirely for practice.
+    </p>
+</footer>
+</body>
 </html>
