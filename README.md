@@ -1,6 +1,6 @@
 # <img src="assets/favicon.png" width="22"/> Product Landing Page
 
-[Live Demo](https://thecolordude.github.io/product-landing-page/)
+[Live Demo](https://constPardalos.github.io/product-landing-page/)
 
 ## Description
 
